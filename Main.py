@@ -11,10 +11,15 @@ def mainmenu():
 
 
 def main():
+    RegEx = ""
     print("Welcome to the Finite State Machine Simulator!")
     while True:
         option = mainmenu()
         if option == "1":
-            Rea.main()
+            RegEx = Rea.inputStatement()
+        elif option == "2":
+            Rea.checkString(RegEx)
         elif option == "3":
             quit()
+
+main()
