@@ -1,2 +1,2 @@
 # FSM-Simulator
-# Currently working on analysing regular expressions and deciding if user's input string is acceptable 
+# Finite State Machine Simulator - Converting from Regular Expression, DFA, NFA and NFA with Epsilon Transition
